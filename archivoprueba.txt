@@ -1,0 +1,7 @@
+https://github.com/vpinedac1/Archivos/blob/9c45ba7dd5e8e60172307369c59c6959eec82b3a/prueba.zip
+
+
+
+wget --no-check-certificate --content-disposition https://github.com/vpinedac1/Archivos/blob/9c45ba7dd5e8e60172307369c59c6959eec82b3a/prueba.zip
+# --no-check-cerftificate was necessary for me to have wget not puke about https
+curl -LJO https://github.com/vpinedac1/Archivos/blob/9c45ba7dd5e8e60172307369c59c6959eec82b3a/prueba.zip
